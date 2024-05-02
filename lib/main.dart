@@ -32,8 +32,8 @@ class _MyHomePageState extends State<MyHomePage> {
 
   ///initialization Api and get body string
   initializationApi() async {
-    body = await ConnectionToApi().connecttingApi(
-        'https://api.github.com/repos/lodash/lodash');
+    body = await ConnectionToApi()
+        .connecttingApi('https://api.github.com/repos/lodash/lodash');
     setState(() {});
   }
 
